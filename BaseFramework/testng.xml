@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="BHS-BestDose">
+	
+	
+	<test name="Chrome">
+	<parameter name = "browser" value ="Chrome" />
+		<classes>
+			<class name="com.TestCases.TestSite1" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Edge">
+	<parameter name = "browser" value ="Edge" />
+		<classes>
+			<class name="com.TestCases.TestSite1" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

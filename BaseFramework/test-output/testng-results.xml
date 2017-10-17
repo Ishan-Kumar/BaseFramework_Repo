@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="131" started-at="2017-10-11T03:26:49Z" finished-at="2017-10-11T03:26:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="131" started-at="2017-10-11T03:26:49Z" finished-at="2017-10-11T03:26:49Z">
+      <class name="com.TestCases.TestXLS_code">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.TestCases.TestXLS_code@1e67a849]" name="test1" duration-ms="111" started-at="2017-10-11T08:56:49Z" finished-at="2017-10-11T08:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.TestCases.TestXLS_code -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

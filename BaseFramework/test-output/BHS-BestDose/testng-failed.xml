@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BHS-BestDose]">
+  <parameter name="browser" value="Edge"/>
+  <test name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.TestCases.TestSite1">
+        <methods>
+          <include name="testFuntions1"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="browserSetup"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.TestCases.TestSite1 -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test name="Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.TestCases.TestSite1">
+        <methods>
+          <include name="testFuntions1"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="browserSetup"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.TestCases.TestSite1 -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+</suite> <!-- Failed suite [BHS-BestDose] -->
